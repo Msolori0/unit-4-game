@@ -1,0 +1,31 @@
+body {
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-size: 1400px, 1000px;
+
+}
+
+
+#header { 
+    margin: 0px auto;
+    padding: 20px;
+    background-color: grey;
+    text-align: center;
+    width: 50%;
+    font-size: 30px;
+    font-family: 'Merriweather', serif;
+    color: white; 
+    border-radius: 25px;
+
+}
+
+#instructions {
+    background-color: grey; 
+    padding: 15px;
+    margin: 20px auto;
+    width: 75%;
+    font-size: 15px; 
+    font-family: 'Merriweather', serif;
+    color: white;
+    border-radius: 25px;
+}
