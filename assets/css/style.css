@@ -1,8 +1,9 @@
 body {
     background-image: url(../images/background.png);
     background-repeat: no-repeat;
-    background-size: 1400px, 1000px;
-
+    background-size: fill;
+    font-family: 'Merriweather', serif;
+    border-radius: 25px;
 }
 
 
@@ -21,11 +22,58 @@ body {
 
 #instructions {
     background-color: grey; 
-    padding: 15px;
+    padding: 25px;
     margin: 20px auto;
     width: 75%;
     font-size: 15px; 
     font-family: 'Merriweather', serif;
     color: white;
     border-radius: 25px;
+}
+
+#numberbox{ 
+    background-color: grey; 
+    color: white;
+    margin: 20px auto;
+    border-radius: 25px;
+    padding: 20px;
+    font-family: 'Merriweather', serif;
+
+
+}
+
+#points {
+    background-color: grey; 
+    color: white;
+    margin: 20px auto;
+    border-radius: 25px;
+    padding: 20px;
+    font-family: 'Merriweather', serif;
+}
+
+#images {
+    background-color: grey; 
+    color: white;
+    margin: 20px auto;
+    border-radius: 25px;
+    padding: 20px;
+    font-family: 'Merriweather', serif;
+    width: 50%;
+    text-align: center;
+}
+
+#totalscore{ 
+    background-color: grey; 
+    color: white;
+    margin: 20px auto;
+    border-radius: 25px;
+    padding: 20px;
+    font-family: 'Merriweather', serif;
+    width: 75%;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    margin-left: 20px
 }

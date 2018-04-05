@@ -13,7 +13,6 @@
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 <!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
 
 </head>
@@ -35,11 +34,32 @@
 
     </div>
 
-    <div id= "numberbox" ></div>
-    <div id= "points"></div>
-    <div id= "images"></div>
-    <div> Your total score is: </div>
-    <div id="totalscore"></div>
+
+    
+        <div class="container">
+            <div class="row"></div>
+                    <div class="col-sm-6" id= "points">
+                    <p>Wins:</p>
+                    <p>Losses:</p>
+                    </div>
+                    
+                    <div class="col-sm-6 col-sm-offset-2" id= "numberbox" >Computers Random Number:</div>
+         </div> 
+
+    <div id= "images">
+            <img src= "assets/images/jewel1.png">
+            <img src= "assets/images/jewel2.png">
+            <img src= "assets/images/jewel3.png">
+            <img src= "assets/images/jewel4.png">
+    </div>
+
+
+
+
+    </div>
+
+
+    <div id="totalscore"> Your total score is: </div>
     
 
     <script type:"text/javascript" src="assets/javascript/game.js"></script>   
