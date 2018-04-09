@@ -86,11 +86,11 @@ function loser(){
 }
 
 function reset(){
-    var computerNumber= (Math.floor(Math.random() * 120)+ 9);
-    var gemOne= (Math.floor(Math.random() * 12)+ 1);
-    var gemTwo= (Math.floor(Math.random() * 12)+ 1);
-    var gemThree= (Math.floor(Math.random() * 12)+ 1);
-    var gemFour= (Math.floor(Math.random() * 12)+ 1);
+     computerNumber= (Math.floor(Math.random() * 120)+ 9);
+     gemOne= (Math.floor(Math.random() * 12)+ 1);
+     gemTwo= (Math.floor(Math.random() * 12)+ 1);
+     gemThree= (Math.floor(Math.random() * 12)+ 1);
+     gemFour= (Math.floor(Math.random() * 12)+ 1);
     $("#totalscore").text(gemNumbers);
     $("#numberbox").text(computerNumber);
     gemNumbers=0;
